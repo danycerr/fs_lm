@@ -18,7 +18,7 @@ int main (int argc, char** argv)
 {
     libMesh::LibMeshInit init(argc, argv);
     // input file
-    GetPot input_file("miscellaneous_ex5.in");
+    GetPot input_file("test_3d.in");
    
     //Read in parameters from the input file
     
