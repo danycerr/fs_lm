@@ -44,8 +44,9 @@ int main (int argc, char** argv)
     const unsigned int nmaxit                  = input_file("nmaxit", 10);
     const unsigned int print_step              = input_file("printstep", 1);
     
-    //mesh constriction
-    mesh msh(&init,mesh_name);
+    // mesh constriction
+    // mesh msh(&init,mesh_name);
+    mesh msh(&init,mesh_name,uniform_refinement_steps);
     std::cout<<"Begin Frictional contact"<<std::endl;
     
     // Crate an equation system object
@@ -93,9 +94,10 @@ int main (int argc, char** argv)
         //update jump
         jump.update();
         if(i%print_step==0){
+		int step= (int) i/print_step + 1;
             ExodusII_IO exo(*(msh.get()));
             exo.append(true);
-            exo.write_timestep_discontinuous (exodus_filename, equation_system, i+1, i*1);
+            exo.write_timestep_discontinuous (exodus_filename, equation_system, step, i*1);
         }
     }
     ExodusII_IO (*(msh.get())).write_discontinuous_exodusII("sol_f.e", equation_system);

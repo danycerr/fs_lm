@@ -19,7 +19,7 @@ p_order =2
 refinement_type = h 
 
 # Number of uniform refinement steps
-uniform_h_r_steps = 2
+uniform_h_r_steps = 0
 
 # Maximum number of adaptive refinement steps
 max_adaptive_r_steps = 3
@@ -42,6 +42,6 @@ ip_penalty_adj= 2000.
 #friction model
 mulim=-0.4
 gamma=1.
-alpha=0.0002
-nmaxit=10
+alpha=0.00005
+nmaxit=30
 printstep=1
