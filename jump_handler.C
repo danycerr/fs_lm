@@ -116,7 +116,8 @@ void JumpHandler::update()
         
         for (unsigned int qp=0; qp<qrule.n_points(); qp++)
         {
-            if( fracture){
+            if( fracture ){
+//           if( fracture && fabs(qpoint[qp](1) - 0.5)<0.375 &&  fabs(qpoint[qp](2) - 0.5)<0.375 ){
                 {
                     dof_id_type dof_index= dof_indices_var[0][0];
                     dof_id_type dof_index_tot= dof_indices_var[1][0];
