@@ -18,7 +18,9 @@ int main (int argc, char** argv)
 {
     libMesh::LibMeshInit init(argc, argv);
     // input file
-    GetPot input_file("test_3d.in");
+    std::string fn=argv[1];
+    std::cout << "Input file is "<<fn<< std::endl;
+    GetPot input_file(fn.c_str());
    
     //Read in parameters from the input file
     
@@ -51,10 +53,10 @@ int main (int argc, char** argv)
     
     // Crate an equation system object
     libMesh::EquationSystems equation_system(*(msh.get()));
-    double mytol=1.e-12;
+    double mytol=1.e-10;
     // Set parameters for the equation system and the solver
     equation_system.parameters.set<Real>("linear solver tolerance") = mytol;
-    equation_system.parameters.set<unsigned int>("linear solver maximum iterations") = 1000000;
+    equation_system.parameters.set<unsigned int>("linear solver maximum iterations") = 20000;
     equation_system.parameters.set<Real>("penalty") = penalty;
     equation_system.parameters.set<Real>("penalty_int") = penalty_int;
     equation_system.parameters.set<Real>("penalty_adj") = ip_penalty_adj;

@@ -268,6 +268,8 @@ void assemble_mechanics(EquationSystems & es,
                   for (unsigned int i=0; i<n_dofs/dim; i++)
                     {
                       // Matrix contribution
+                    //    Boundary conditions
+                        // mat_term true = Dirichlet
                         for (unsigned int j=0; j<n_dofs/dim; j++)
                         {  double yp= qface_point[qp](1);
                             bool mat_term=false;
@@ -275,9 +277,11 @@ void assemble_mechanics(EquationSystems & es,
                             if(qface_point[qp](0)< 0.0001){ bc_value=0.;mat_term=true;}
                             if(qface_point[qp](0)>0.999) {
                                 if(ivar==0) { bc_value=-0.02;mat_term=true;}
-                                if (ivar==dim-1){  bc_value=0.025;mat_term=true;}
+                                // if (ivar==dim-1){  bc_value=0.025;mat_term=true;}
+                                else{  bc_value=0.025*(dim-1);mat_term=true;}
                             }
-                             if(ivar==1 ){ bc_value=0.;mat_term=true;}
+//                              if(qface_point[qp](1)< 0.0001||qface_point[qp](1)>0.999)
+//                                 if(ivar==1 ){ bc_value=0.;mat_term=true;}
                                 if(mat_term){
                                     Ke(i+ivar*n_dofs/dim,j+ivar*n_dofs/dim) += JxW_face[qp] * penalty_bc/h_elem * phi_face[i][qp] * phi_face[j][qp];
                                     
@@ -405,6 +409,7 @@ void assemble_mechanics(EquationSystems & es,
                       // Kee Matrix. Integrate the element test function i
                       // against the element test function j
                   bool fracture = (!(qface_point[qp](0)<0.49999 ||qface_point[qp](0) >0.50001 ));
+                //   bool fracture = ( fabs(qface_point[qp](0)-0.5)< 0.001  && fabs(qface_point[qp](1)-0.5)< 0.375 +0.001&& fabs(qface_point[qp](2)-0.5)< 0.375 +0.001  );
 //                   fracture=false;
                        double sym=0;
                        for (unsigned int i=0; i<n_dofs/dim; i++)

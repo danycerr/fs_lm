@@ -24,7 +24,7 @@ CXXFLAGS+=-I$(LIBMESH_INC)
 CXXFLAGS+=-I$(PETSC3p13_INC)
 CXXFLAGS+=-I.
 LDFLAGS=$(libmesh_LIBS)
-TARGET=fc
+TARGET=faultslip
 $(TARGET): $(obj)
 	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
 # 	echo ciao

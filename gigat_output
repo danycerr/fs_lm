@@ -1,0 +1,524 @@
+refine
+ Mesh Information:
+  elem_dimensions()={3}
+  spatial_dimension()=3
+  n_nodes()=4913
+    n_local_nodes()=185
+  n_elem()=4608
+    n_local_elem()=114
+    n_active_elem()=4096
+  n_subdomains()=2
+  n_partitions()=40
+  n_processors()=40
+  n_threads()=1
+  processor_id()=0
+
+Constructor of mesh
+Begin Frictional contact
+Constructor of mechanics problem
+le_post::building stress tensor and xi
+Constructor of adjoint problem
+le_post::building stress tensor and xi
+adj_post::building stress tensor adj_stress
+adj_post::building stress tensor jump
++++ iteration +++ 0 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 1615, final residual: 3.01579e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 3.43634e-12
+computing stress tensor
+compute jump 
++++ iteration +++ 1 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 682, final residual: 3.00132e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 4.21943e-11
+computing stress tensor
+compute jump 
++++ iteration +++ 2 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 625, final residual: 3.02256e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 3.93769e-12
+computing stress tensor
+compute jump 
++++ iteration +++ 3 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 535, final residual: 3.06103e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 1.36466e-12
+computing stress tensor
+compute jump 
++++ iteration +++ 4 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 456, final residual: 3.03031e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 1.00485e-11
+computing stress tensor
+compute jump 
++++ iteration +++ 5 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 359, final residual: 3.05968e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 3.96224e-13
+computing stress tensor
+compute jump 
++++ iteration +++ 6 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 295, final residual: 3.04134e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 2.96854e-14
+computing stress tensor
+compute jump 
++++ iteration +++ 7 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 249, final residual: 3.01164e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 6.08551e-13
+computing stress tensor
+compute jump 
++++ iteration +++ 8 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 233, final residual: 3.03785e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 1.3017e-12
+computing stress tensor
+compute jump 
++++ iteration +++ 9 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 266, final residual: 3.01947e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 3.84197e-14
+computing stress tensor
+compute jump 
++++ iteration +++ 10 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 275, final residual: 3.05676e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 3.38343e-13
+computing stress tensor
+compute jump 
++++ iteration +++ 11 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 279, final residual: 3.03058e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 1.3256e-11
+computing stress tensor
+compute jump 
++++ iteration +++ 12 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 281, final residual: 3.05373e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 1.608e-14
+computing stress tensor
+compute jump 
++++ iteration +++ 13 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 283, final residual: 3.05148e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 5.95698e-14
+computing stress tensor
+compute jump 
++++ iteration +++ 14 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 283, final residual: 3.05623e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 8.90713e-14
+computing stress tensor
+compute jump 
++++ iteration +++ 15 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 283, final residual: 3.043e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 1.75908e-14
+computing stress tensor
+compute jump 
++++ iteration +++ 16 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 282, final residual: 3.0563e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 6.45287e-14
+computing stress tensor
+compute jump 
++++ iteration +++ 17 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 281, final residual: 3.03449e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 18944, final residual: 8.40436e-15
+computing stress tensor
+compute jump 
++++ iteration +++ 18 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 279, final residual: 3.0501e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 1.13556e-13
+computing stress tensor
+compute jump 
++++ iteration +++ 19 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 278, final residual: 3.01672e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 1.93094e-14
+computing stress tensor
+compute jump 
++++ iteration +++ 20 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 276, final residual: 3.04036e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 2.57075e-14
+computing stress tensor
+compute jump 
++++ iteration +++ 21 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 274, final residual: 3.06231e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 1.72787e-14
+computing stress tensor
+compute jump 
++++ iteration +++ 22 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 274, final residual: 3.01696e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 18498, final residual: 8.22272e-15
+computing stress tensor
+compute jump 
++++ iteration +++ 23 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 272, final residual: 3.05739e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 1.8423e-14
+computing stress tensor
+compute jump 
++++ iteration +++ 24 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 270, final residual: 3.0423e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 17870, final residual: 8.18631e-15
+computing stress tensor
+compute jump 
++++ iteration +++ 25 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 270, final residual: 2.9925e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 1.03155e-14
+computing stress tensor
+compute jump 
++++ iteration +++ 26 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 269, final residual: 3.02724e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 18780, final residual: 8.15912e-15
+computing stress tensor
+compute jump 
++++ iteration +++ 27 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 268, final residual: 3.04502e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 17693, final residual: 8.14824e-15
+computing stress tensor
+compute jump 
++++ iteration +++ 28 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 268, final residual: 3.01424e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 2.23124e-14
+computing stress tensor
+compute jump 
++++ iteration +++ 29 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 267, final residual: 3.02414e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 2.18824e-14
+computing stress tensor
+compute jump 
++++ iteration +++ 30 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 266, final residual: 3.04626e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 19890, final residual: 8.10763e-15
+computing stress tensor
+compute jump 
++++ iteration +++ 31 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 265, final residual: 3.04671e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 18919, final residual: 8.0915e-15
+computing stress tensor
+compute jump 
++++ iteration +++ 32 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 265, final residual: 3.02318e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 15621, final residual: 8.08079e-15
+computing stress tensor
+compute jump 
++++ iteration +++ 33 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 265, final residual: 3.01145e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 18082, final residual: 8.06587e-15
+computing stress tensor
+compute jump 
++++ iteration +++ 34 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 264, final residual: 3.00996e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 17642, final residual: 8.04007e-15
+computing stress tensor
+compute jump 
++++ iteration +++ 35 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 263, final residual: 3.05113e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 3.86604e-13
+computing stress tensor
+compute jump 
++++ iteration +++ 36 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 263, final residual: 3.02371e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 2.77578e-14
+computing stress tensor
+compute jump 
++++ iteration +++ 37 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 262, final residual: 3.04245e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 2.13716e-14
+computing stress tensor
+compute jump 
++++ iteration +++ 38 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 262, final residual: 3.02905e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 4.67622e-14
+computing stress tensor
+compute jump 
++++ iteration +++ 39 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 260, final residual: 3.05754e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 16978, final residual: 7.96758e-15
+computing stress tensor
+compute jump 
++++ iteration +++ 40 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 260, final residual: 3.02779e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 2.03597e-14
+computing stress tensor
+compute jump 
++++ iteration +++ 41 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 259, final residual: 3.05319e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 19100, final residual: 7.93276e-15
+computing stress tensor
+compute jump 
++++ iteration +++ 42 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 258, final residual: 3.05463e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 2.04702e-13
+computing stress tensor
+compute jump 
++++ iteration +++ 43 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 258, final residual: 3.03236e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 19086, final residual: 7.89399e-15
+computing stress tensor
+compute jump 
++++ iteration +++ 44 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 257, final residual: 3.04925e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 7.42761e-14
+computing stress tensor
+compute jump 
++++ iteration +++ 45 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 257, final residual: 3.02117e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 1.26932e-13
+computing stress tensor
+compute jump 
++++ iteration +++ 46 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 256, final residual: 3.03228e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 20000, final residual: 1.08987e-14
+computing stress tensor
+compute jump 
++++ iteration +++ 47 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 255, final residual: 3.05139e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 16967, final residual: 7.81755e-15
+computing stress tensor
+compute jump 
++++ iteration +++ 48 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 255, final residual: 3.03525e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 18076, final residual: 7.79998e-15
+computing stress tensor
+compute jump 
++++ iteration +++ 49 +++
+Solve of LinearElasticityProblem
+ assembling elliptic dg system... done
+Linear solver converged at step: 254, final residual: 3.04767e-11
+computing stress tensor
+Solve of AdjointProblem
+ assembling adjoint dg system... done adjoint dg
+Adjoint Linear solver converged at step: 19339, final residual: 7.78048e-15
+computing stress tensor
+compute jump 
+Mesh destructor

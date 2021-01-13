@@ -2,8 +2,7 @@
 singularity = true        
 
 # mesh name 
-mesh_name=mesh/cube.msh
-# mesh_name=sq2.msh
+mesh_name=mesh/sq2.msh
 # In what dimension
 dimension = 2 
 # division of the square
@@ -42,6 +41,6 @@ ip_penalty_adj= 2000.
 #friction model
 mulim=-0.4
 gamma=0.1
-alpha=0.000002
-nmaxit=50
-printstep=2
+alpha=0.000004
+nmaxit=100
+printstep=1

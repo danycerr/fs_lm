@@ -230,13 +230,15 @@ void assemble_prob(EquationSystems & es,
                     {
                         Number bc_value = 0.;
                         Number mat_term = 1.;
-                        for (unsigned int i=0; i<n_dofs/dim; i++)
+                         for (unsigned int i=0; i<n_dofs/dim; i++)
                         {
                             // Matrix contribution
                             for (unsigned int j=0; j<n_dofs/dim; j++)
                             {   double xp= qface_point[qp](0);
                                 double yp= qface_point[qp](1);
-//                                 if (xp<0.0001) {bc_value=0.; mat_term=1;}
+//                              
+
+                               // if ((yp<0.0001 || yp>0.9999) && (ivar==1 || ivar==2)) {bc_value=0.; mat_term=0;} //neumann
 //                                 if(xp>0.9999)  if(ivar==0){bc_value=0.2; mat_term=1;}
                                 // stability
                                 Ke(i+ivar*n_dofs/dim,j+ivar*n_dofs/dim) += JxW_face[qp] * mat_term*penalty_bc/h_elem * phi_face[i][qp] * phi_face[j][qp];
@@ -353,7 +355,9 @@ void assemble_prob(EquationSystems & es,
                     {
                       // Kee Matrix. Integrate the element test function i
                       // against the element test function j
-                  bool fracture = (!(qface_point[qp](0)<0.49999 ||qface_point[qp](0) >0.50001 ));
+                
+//                   bool fracture = ( fabs(qface_point[qp](0)-0.5)< 0.001  && fabs(qface_point[qp](1)-0.5)< 0.375 + 0.001&& fabs(qface_point[qp](2)-0.5)<  0.375 + 0.001  );
+                         bool fracture = (!(qface_point[qp](0)<0.49999 ||qface_point[qp](0) >0.50001 ));
 //                   fracture=false;
                        double sym=0;
                        for (unsigned int i=0; i<n_dofs/dim; i++)
