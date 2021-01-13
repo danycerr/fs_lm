@@ -1,4 +1,12 @@
+
 # fs_lm
+
+
+<p align="center">
+  <img src="complpan.png" width="700">
+</p>
+
+
 FaultSlip project on libmesh
 
 Optimal control formulation of fault slip problem
