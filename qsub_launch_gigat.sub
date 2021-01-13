@@ -23,7 +23,7 @@ cd ${PBS_O_WORKDIR}
 # YOUR LAUNCH COMMAND BELOW completed with I/O redirection if needed
 
 source configure_mox.sh 
-make > gigat_compile_log && mpiexec -np 40 ./example-opt > gigat_output 2>&1
+make > gigat_compile_log && mpiexec -np 40 ./faultslip test_2d.in > gigat_output 2>&1
 
 #source tester.sh > gigat_output 2>&1
 

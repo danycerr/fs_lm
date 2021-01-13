@@ -268,6 +268,8 @@ void assemble_mechanics(EquationSystems & es,
                   for (unsigned int i=0; i<n_dofs/dim; i++)
                     {
                       // Matrix contribution
+                    //    Boundary conditions
+                        // mat_term true = Dirichlet
                         for (unsigned int j=0; j<n_dofs/dim; j++)
                         {  double yp= qface_point[qp](1);
                             bool mat_term=false;
@@ -276,7 +278,7 @@ void assemble_mechanics(EquationSystems & es,
                             if(qface_point[qp](0)>0.999) {
                                 if(ivar==0) { bc_value=-0.02;mat_term=true;}
                                 // if (ivar==dim-1){  bc_value=0.025;mat_term=true;}
-				else{  bc_value=0.025*0.5;mat_term=true;}
+                                else{  bc_value=0.025*(dim-1);mat_term=true;}
                             }
 //                              if(qface_point[qp](1)< 0.0001||qface_point[qp](1)>0.999)
 //                                 if(ivar==1 ){ bc_value=0.;mat_term=true;}

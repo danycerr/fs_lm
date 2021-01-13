@@ -7,7 +7,7 @@ LIBMESH_DIR ?= $(mkLibeshDir)
 # include the library options determined by configure
 include $(LIBMESH_DIR)/Make.common
 
-target     := ./example-$(METHOD)
+target     := ./faultslip
 
 
 ###############################################################################
