@@ -18,7 +18,9 @@ int main (int argc, char** argv)
 {
     libMesh::LibMeshInit init(argc, argv);
     // input file
-    GetPot input_file("test_3d.in");
+    std::string fn=argv[1];
+    std::cout << "Input file is "<<fn<< std::endl;
+    GetPot input_file(fn.c_str());
    
     //Read in parameters from the input file
     
